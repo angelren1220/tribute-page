@@ -13,7 +13,11 @@ body {
   line-height: 1.5;
   text-align: center;
   color: #333;
-  margin: 0;
+  margin: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
 }
 
 h1 {
@@ -28,8 +32,9 @@ h1 {
   }
 }
 
-h2 {
-  font-size: 3.25rem;
+h3 {
+  font-size: 2rem;
+  margin-bottom: 0;
 }
 
 a {
@@ -77,13 +82,13 @@ img {
 }
 
 #headline {
-  margin: 50px 0;
+  margin: 50px 0 0;
   text-align: center;
 }
 
 blockquote {
   font-style: italic;
   max-width: 545px;
-  margin: 0 auto 50px auto;
+  margin: 50px auto 50px auto;
   text-align: left;
 }
