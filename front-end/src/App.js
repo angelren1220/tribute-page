@@ -10,13 +10,12 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <Template>
           <Routes>
             <Route path='/' element={<Homepage />} />
             <Route path='/gallery' element={<Gallery />} />
             <Route path='/album' element={<Album />} />
           </Routes>
-        </Template>
+
       </Router>
     </div>
   );

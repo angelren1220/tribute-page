@@ -1,6 +1,14 @@
+import Profile from './Profile';
+import Story from './Story';
+import Footer from './Footer';
+
 function Homepage(){
   return(
-    <p>this is album Homepage</p>
+    <div className='homepage'>
+      <Profile />
+      <Story />
+      <Footer />
+    </div>
   )
 }
 
