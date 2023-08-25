@@ -1,14 +1,23 @@
-import './App.css';
-import Profile from './components/Profile';
-import Story from './components/Story';
-import Footer from './components/Footer';
+// import './App.css';
+
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Template from './components/Template';
+import Homepage from './components/Homepage';
+import Gallery from './components/Gallery';
+import Album from './components/Album';
 
 function App() {
   return (
     <div className="App">
-      <Profile />
-      <Story />
-      <Footer />
+      <Router>
+        <Template>
+          <Routes>
+            <Route path='/' element={<Homepage />} />
+            <Route path='/gallery' element={<Gallery />} />
+            <Route path='/album' element={<Album />} />
+          </Routes>
+        </Template>
+      </Router>
     </div>
   );
 }
