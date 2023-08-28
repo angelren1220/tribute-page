@@ -1,70 +1,60 @@
-# Getting Started with Create React App
+**Project Title: Tribute to Coco Lee - Music, Album, and Gallery Website with Donation Support**
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Project Description:**
 
-## Available Scripts
+The "Tribute to Coco Lee" website is a heartfelt tribute to the iconic artist Coco Lee, celebrating her remarkable contributions to the world of music and entertainment. This comprehensive platform not only honors her legacy through albums, images, and videos but also provides an avenue for fans to support her family by making donations.
 
-In the project directory, you can run:
+**Key Features:**
 
-### `npm start`
+1. **Album Showcase:** The website prominently presents Coco Lee's timeless albums, allowing visitors to delve into her diverse musical journey. Each album page provides insights into the album's creation, tracks, and unique themes.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+2. **Image Gallery:** Through an immersive image gallery, users can get a glimpse into Coco Lee's dynamic career, from electrifying performances to candid moments and behind-the-scenes glimpses.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+3. **Responsive Design:** The website adapts seamlessly to various devices, ensuring an engaging experience on desktops, tablets, and mobiles.
 
-### `npm test`
+4. **Interactive Elements:** Visitors can relive Coco Lee's captivating performances through embedded YouTube videos, immersing themselves in her music videos and live shows.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+5. **Modal Enlargement:** The gallery section features a dynamic modal window, allowing users to click on images for a full-size view, capturing Coco Lee's illustrious journey.
 
-### `npm run build`
+6. **Donation Tribute:** A floating tribute button accompanies users on every page, offering a heartfelt opportunity to support Coco Lee's family through secure donations powered by Stripe.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+7. **Stripe Integration:** The website seamlessly integrates Stripe's secure payment processing, enabling fans to make contributions in honor of Coco Lee's legacy.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+8. **Engagement:** Users can stay connected by exploring Coco Lee's social media presence, subscribing to newsletters, and staying updated on upcoming events and releases.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+9. **Profile Tribute:** A dedicated profile section pays homage to Coco Lee's life and achievements, sharing her inspiring story and highlighting her groundbreaking accomplishments.
 
-### `npm run eject`
+**Technologies Used:**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- React: Creating dynamic user interfaces for an immersive experience.
+- React Router: Facilitating smooth navigation and routing within the website.
+- YouTube API: Integrating Coco Lee's performances and music videos seamlessly.
+- Sass: Crafting stylish and adaptable styles for a visually engaging website.
+- HTML5: Structuring content to provide an interactive user experience.
+- CSS3: Enhancing the website with captivating animations and visuals.
+- JavaScript: Adding interactivity and enhancing user engagement.
+- Stripe: Enabling secure donation processing for visitors to contribute to Coco Lee's family.
+- GitHub: Supporting collaborative development and version control.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+**Project Benefits:**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Establishes a respectful and immersive online tribute to Coco Lee's impactful music career.
+- Invites fans to relive Coco Lee's legacy, engaging with her music and cherished memories.
+- Offers a meaningful opportunity for users to contribute to Coco Lee's family through secure donations.
+- Honors Coco Lee's profound influence on the music industry and her lasting connection with her audience.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Setup
 
-## Learn More
+Install dependencies with `npm install`.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Running Webpack Development Server
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```sh
+npm start
+```
 
-### Code Splitting
+## Running Jest Test Framework
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```sh
+npm test
+```
