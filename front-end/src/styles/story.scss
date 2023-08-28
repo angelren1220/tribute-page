@@ -1,9 +1,7 @@
 @import './base';
 
-#img-caption {
-  font-size: 1.4rem;
-
-  @media (max-width: 460px) {
-    font-size: 1.4rem;
-  }
+.story {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 5px;
 }

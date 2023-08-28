@@ -3,7 +3,7 @@ import "../styles/story.scss";
 function Story() {
 
   return (
-    <section id="tribute-info">
+    <section id="tribute-info" className="story">
     <h3 id="headline">A Star is Born</h3>
     <p>Coco Lee's musical odyssey began in 1993 when she participated in the 12th New Talent Singing Awards in Hong Kong, earning the title of first runner-up. This marked the commencement of a storied career that would encompass singing and acting, cementing her status as a true artist.</p>
     <h3 id="headline">Musical Triumphs</h3>
