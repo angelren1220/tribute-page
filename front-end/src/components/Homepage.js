@@ -1,3 +1,4 @@
+import "../styles/homepage.scss";
 import Profile from './Profile';
 import Story from './Story';
 import Footer from './Footer';

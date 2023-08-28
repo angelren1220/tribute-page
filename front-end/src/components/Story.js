@@ -1,3 +1,5 @@
+import "../styles/story.scss";
+
 function Story() {
 
   return (

@@ -1,4 +1,4 @@
-import './App.css';
+import './styles/base.scss'; 
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Template from './components/Template';

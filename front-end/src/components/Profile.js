@@ -1,3 +1,5 @@
+import "../styles/profile.scss";
+
 function Profile() {
   const title = "Ms.";
   const firstName = "Coco";
@@ -10,9 +12,9 @@ function Profile() {
       <div className="profile__name">
         <h2>{title} <span className="profile--bold">{firstName}</span> {lastName}</h2>
       </div>
-  <p>{about}</p>
-    <img className="profie_image" src={avatar} alt="Coco" />
-  </aside>
+      <p>{about}</p>
+      <img className="profie_image" src={avatar} alt="Coco" />
+    </aside>
   );
 }
 

@@ -1,0 +1,9 @@
+@import './base';
+
+#img-caption {
+  font-size: 1.4rem;
+
+  @media (max-width: 460px) {
+    font-size: 1.4rem;
+  }
+}
