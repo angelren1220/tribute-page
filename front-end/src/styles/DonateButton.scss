@@ -12,6 +12,10 @@
   cursor: pointer;
   z-index: 1000;
 
+  &:hover {
+    background-color: #ff5a5f; /* Change to non-transparent color on hover */
+  }
+
   .heart-icon {
     font-size: 2.5rem; /* Increase the size of the icon */
     margin-right: 10px;
