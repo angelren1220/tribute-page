@@ -1,0 +1,24 @@
+.donate-button-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  align-items: center;
+  background-color: rgba(255, 90, 95, 0.5);
+  color: white;
+  border: none;
+  border-radius: 10px; /* Increase the border-radius for rounded corners */
+  padding: 15px 25px; /* Adjust padding for bigger button */
+  cursor: pointer;
+  z-index: 1000;
+
+  .heart-icon {
+    font-size: 2.5rem; /* Increase the size of the icon */
+    margin-right: 10px;
+  }
+
+  .button-text {
+    font-size: 1.8rem; /* Increase the size of the text */
+  }
+}
+
