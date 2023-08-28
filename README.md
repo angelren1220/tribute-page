@@ -4,7 +4,7 @@
 
 The "Tribute to Coco Lee" website is a heartfelt tribute to the iconic artist Coco Lee, celebrating her remarkable contributions to the world of music and entertainment. This comprehensive platform not only honors her legacy through albums, images, and videos but also provides an avenue for fans to support her family by making donations.
 
-![]()
+![](https://github.com/angelren1220/tribute-page/blob/main/docs/Screenshot%202023-08-28%20at%203.52.45%20AM.png?raw=true)
 
 ## Key Features:
 
