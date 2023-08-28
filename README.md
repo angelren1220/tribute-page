@@ -4,6 +4,8 @@
 
 The "Tribute to Coco Lee" website is a heartfelt tribute to the iconic artist Coco Lee, celebrating her remarkable contributions to the world of music and entertainment. This comprehensive platform not only honors her legacy through albums, images, and videos but also provides an avenue for fans to support her family by making donations.
 
+![]()
+
 ## Key Features:
 
 1. Album Showcase: The website prominently presents Coco Lee's timeless albums, allowing visitors to delve into her diverse musical journey. Each album page provides insights into the album's creation, tracks, and unique themes.
