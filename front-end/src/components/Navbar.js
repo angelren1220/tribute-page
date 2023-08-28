@@ -1,13 +1,25 @@
+import "../styles/navbar.scss";
 import { Link } from 'react-router-dom';
 
-function Navbar() {
+const Navbar = () => {
   return (
-    <nav className="nav">
-      <h2><a href="/">Home</a></h2>
-      <h2><Link to={'/gallery'} >Gallery</Link></h2>
-      <h2><Link to={'/album'}>Album</Link></h2>
+    <nav className="navbar">
+      <div className="logo">
+        <Link to={"/"}>Logo</Link>
+      </div>
+      <ul className="nav-links">
+        <li>
+          <Link to={"/"}>Home</Link>
+        </li>
+        <li>
+          <Link to={"/gallery"}>Gallery</Link>
+        </li>
+        <li>
+          <Link to={"/album"}>Album</Link>
+        </li>
+      </ul>
     </nav>
   );
-}
+};
 
 export default Navbar;

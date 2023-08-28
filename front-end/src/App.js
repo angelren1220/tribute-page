@@ -1,4 +1,4 @@
-// import './App.css';
+import './App.css';
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Template from './components/Template';
@@ -10,12 +10,12 @@ function App() {
   return (
     <div className="App">
       <Router>
+        <Template />
           <Routes>
             <Route path='/' element={<Homepage />} />
             <Route path='/gallery' element={<Gallery />} />
             <Route path='/album' element={<Album />} />
           </Routes>
-
       </Router>
     </div>
   );
