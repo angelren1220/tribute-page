@@ -1,3 +1,4 @@
+import '../styles/DonatePopup.scss';
 import { useState } from 'react';
 import Modal from 'react-modal';
 import stripe from '../utils/stripe';
@@ -30,7 +31,8 @@ function DonatePopup({ isOpen, onRequestClose }) {
       className="popup-content"
       overlayClassName="popup-overlay"
     >
-      <h2>Donate for Her Family</h2>
+      <button className="close-button" onClick={onRequestClose}>x</button>
+      <h2>Thanks for your donate!</h2>
       <form>
         <input type="text" placeholder="Card Number" onChange={e => setCardNumber(e.target.value)} />
         <input type="text" placeholder="Expiry (MM/YY)" onChange={e => setExpiry(e.target.value)} />
