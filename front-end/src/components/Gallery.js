@@ -1,3 +1,5 @@
+import "../styles/gallery.scss";
+
 function Gallery() {
   const imageUrls = [
     "https://media.gettyimages.com/id/1157532076/photo/singer-coco-lee-performs-onstage-during-her-concert-at-the-taipei-arena-on-june-21-2019-in.jpg?s=612x612&w=0&k=20&c=07IgcKJ9oOCzwevBKbtFNs9_M-Hq3nXWgL6XjqZ4oJw=",
